@@ -1,0 +1,34 @@
+{
+  "nodes": [
+    "001",
+    "002",
+    "003",
+    "004"
+  ],
+  "edges": [
+    {
+      "from": "001",
+      "to": "003",
+      "rel": "depends_on",
+      "label": "protocol requires sandbox awareness"
+    },
+    {
+      "from": "001",
+      "to": "004",
+      "rel": "uses",
+      "label": "token is the auth for git memory"
+    },
+    {
+      "from": "002",
+      "to": "001",
+      "rel": "instance_of",
+      "label": "symphony impl uses memory protocol"
+    },
+    {
+      "from": "003",
+      "to": "004",
+      "rel": "related",
+      "label": "sandbox uses token for git"
+    }
+  ]
+}
