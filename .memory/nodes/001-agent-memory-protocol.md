@@ -42,3 +42,6 @@ Git = long-term memory. Conversation = short-term (context window). Sandbox = di
 3. No token refresh strategy — PAT can expire (future: store refresh logic in AGENTS.md)
 4. No memory pruning — unbounded growth (future: archive/ subdir + relevance score in frontmatter)
 5. No structured task DAG — queue is flat (future: queue/pending.json with deps)
+
+## Reference
+See `AGENT-MEMORY-SPEC.md` in repo root for the full RFC 2119 specification.

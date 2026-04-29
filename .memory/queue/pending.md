@@ -3,7 +3,7 @@
 ## High Priority
 - [ ] Write pytest test suite for symphony slices (slice by slice)
 - [ ] Add GitHub Actions CI workflow (.github/workflows/test.yml)
-- [ ] Formalize Agent Memory Protocol as AGENT-MEMORY-SPEC.md (RFC 2119)
+- [x] Formalize Agent Memory Protocol as AGENT-MEMORY-SPEC.md (RFC 2119)
 
 ## Medium Priority
 - [ ] Add semantic node search (embed nodes, store vectors as frontmatter)

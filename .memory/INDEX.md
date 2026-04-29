@@ -19,5 +19,8 @@
 ## Graph
 See `graph.json` for edges between nodes.
 
+## RFC
+See `AGENT-MEMORY-SPEC.md` in repo root for the full RFC 2119 specification.
+
 ## Queue
 See `queue/pending.md` for outstanding tasks.
